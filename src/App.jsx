@@ -55,7 +55,8 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/mobiles" element={<MobilePage />} />
+       
+<Route path="/mobiles" element={<MobilePage />} />
         <Route path="/computers" element={<ComputerPage/>}/>
         <Route path="/watches" element={<WatchPage/>}/>
         <Route path="/tvs" element={<TvPage/>}/>
@@ -85,7 +86,7 @@ const App = () => {
           <Route path="/orders" element={<Orders/>}/>
           <Route path="/customerService" element={<CusotmerService/>}/>
           
-
+        
       </Routes>
     </div>
   );
